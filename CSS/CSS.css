@@ -1,0 +1,112 @@
+body{
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.Whatsappbutton{      
+  Opacity: 60%;
+
+         backdrop-filter: blur(10px);
+      box-shadow: 0 0px 30px 1px #ffffff;
+      font-size:4.4vh;
+       z-index: 5;
+      position: fixed;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+  
+            color:  #ffffff;
+            
+            border-radius: 300px;
+      padding-left: 15px;
+      padding-right: 14px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+            bottom: 5vh;
+            right: 4vh;
+    }
+    .whatsappbutton:hover{
+      transition: 0.3s;
+      box-shadow: 0 0px 35px 10px #ffffff;
+    }
+
+    .Whatsappbutton a{  
+      color: #FFF;    
+    }
+
+
+.mobile{
+    display: none;
+}
+.pc-wallpaper{
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+      .main-pc-logo{
+
+        width: 13%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     padding-bottom: 50px;
+        padding-top: 340px;
+        
+filter: drop-shadow(0px 0px 13px #00000059);
+
+       
+      }
+    .PC-KIT-LOGO{
+  
+    position: absolute;
+    z-index: 3;
+left: 4vh;
+bottom: 5vh;
+     width:8vh;
+  
+    }
+    .pc-shade{
+      position: absolute;
+      z-index: -1;
+    }
+      .pc h1{
+        margin-top: -20px;
+        color: #FFF;
+        font-weight: 500;
+        font-family: 'Cairo';
+        font-size: 47px;
+        text-align: center;
+      }
+      .pc h2{
+        padding-top: 8%;
+        color: #FFF;
+        font-weight: 500;
+        font-family: 'Cairo';
+        font-size: 25px;
+        text-align: center;
+      }
+      .pc h3{
+        color: #FFF;
+        font-weight: 500;
+        font-family: 'Cairo';
+        font-size: 13px;
+        text-align: center;
+        
+      }
+      .pc h4{
+        color: #FFF;
+        font-weight: 500;
+        padding-right: 15px;
+        font-family: 'Cairo';
+        font-size: 9px;
+position: absolute;
+top: 0px;
+right: 0px;
+        
+
+      }
+      
